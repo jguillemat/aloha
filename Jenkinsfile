@@ -8,7 +8,7 @@ podTemplate(
 
     node("myJenkins") {
 
-        @Library('helloworld-msa-library')
+        @Library('helloworld-msa-library')_
         
         stage ('SCM checkout'){
             echo 'Checking out git repository'
